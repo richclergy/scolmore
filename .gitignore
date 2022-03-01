@@ -15,6 +15,9 @@ public/hot
 public_html/storage
 public_html/hot
 
+# Netbeans Project Folder
+nbproject
+
 storage/*.key
 .env
 Homestead.yaml

@@ -1,0 +1,7 @@
+SetEnv SENDGRID_API_KEY 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
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^scolmore$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.scolmore$
+RewriteCond %{REQUEST_URI} !public/
+RewriteRule (.*) /public/$1 [L]
